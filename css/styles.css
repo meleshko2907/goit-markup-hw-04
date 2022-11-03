@@ -119,10 +119,13 @@ header{
 
 /*------Hero------*/
 
-
-
 .hero {
-    background-color: #2F303A;
+    max-width: 1600px;
+    background-color: #C4C4C4;
+    background-image: url(../images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin-right: auto;
     margin-left: auto;
     padding-top: 200px;
