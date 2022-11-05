@@ -339,6 +339,61 @@ header{
     color: #FFFFFF;
 }
 
+/*-------Clients---------*/
+
+.clients-title{
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: var(--brand-color);
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus{
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+.clients-logo:hover,
+.clients-logo:focus{
+    fill: var(--secondary-color);
+}
+
+
+
+
+.clients-area{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /*-------Footer----------*/
 
 .footer-box{
