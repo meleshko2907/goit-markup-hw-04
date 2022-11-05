@@ -1,6 +1,6 @@
 :root {
     --brand-color: #212121;
-    --secondary-color: #2196F3;
+    --secondary-color: #2196F3; 
 }
 
 body{
@@ -102,12 +102,24 @@ header{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
+    gap: 10px;
 }
 
-.header-contacts:focus{color: var(--secondary-color);}
+.header-email:hover,
+.header-email:focus,
+.header-contacts:focus,
+.header-contacts:hover{
+    color: var(--secondary-color);
+}
+
+.header-phone,
+.header-email{
+    fill: currentColor;
+}
 
 .contact-container{
     display: flex;
@@ -301,9 +313,18 @@ header{
     height: 44px;
     background-color: #ffffff;
     border-radius: 50%;
+    color:#AFB1B8;
 }
   
+.social-icons{
+    fill:currentColor
+}
 
+.social-link:hover, 
+.social-link:focus{
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+}
 
 /*-------Footer----------*/
 
