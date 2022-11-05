@@ -121,8 +121,9 @@ header{
 
 .hero {
     max-width: 1600px;
+    min-height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-background.jpg);
     background-color: #C4C4C4;
-    background-image: url(../images/hero-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -284,6 +285,23 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
    }
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
   
 
 
