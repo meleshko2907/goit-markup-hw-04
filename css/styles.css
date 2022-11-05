@@ -92,7 +92,10 @@ header{
     cursor:pointer;
     }
 
-.nav-link:focus{color:var(--secondary-color);}
+.nav-link:focus,
+.nav-link:hover{
+    color:var(--secondary-color);
+}
 
 .nav-link.link.current {color:var(--secondary-color);}
 
@@ -213,6 +216,7 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: var(--brand-color);
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -220,6 +224,15 @@ header{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.advantages-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 
