@@ -387,6 +387,7 @@ header{
     fill: var(--secondary-color);
 }
 
+.clients-link:focus .clients-logo,
 .clients-link:hover .clients-logo{
     fill: var(--secondary-color);
 }
@@ -399,10 +400,24 @@ header{
 /*-------Footer----------*/
 
 .footer-box{
-    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-sections{
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+}
+
+.footer-contacts{
+        justify-content: flex-start;
+    align-items: center;
+    margin-right: 70px;
+    width: 231px;
 }
 
 .logo-footer{
@@ -452,15 +467,37 @@ header{
 }
 
 .fotter-socials{
+    display: block;
+    justify-content: baseline;
+    align-items:flex-start;
     margin-right: auto;
-    margin-left: auto;
+    
 }
 
 .social-title{
+    display: block;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.social-link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus{
+    background-color: var(--secondary-color);
     color: #FFFFFF;
 }
 
