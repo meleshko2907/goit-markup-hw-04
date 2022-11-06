@@ -57,7 +57,8 @@ header{
     border-bottom: 1px solid #ECECEC;
 }
 
-.logo {font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;   
     letter-spacing: 0.03em;
@@ -90,14 +91,16 @@ header{
     letter-spacing: 0.02em;
     color: var(--brand-color);
     cursor:pointer;
-    }
+}
 
 .nav-link:focus,
 .nav-link:hover{
     color:var(--secondary-color);
 }
 
-.nav-link.link.current {color:var(--secondary-color);}
+.nav-link.link.current {
+    color:var(--secondary-color);
+}
 
 .header-contacts{
     font-weight: 500;
@@ -146,7 +149,7 @@ header{
     margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
-    }
+}
 
 .hero-text{
     margin-right: 338px;
@@ -161,25 +164,24 @@ header{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    }  
+}  
 
 .hero-btn{
     font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-        border-radius: 4px;
-        padding: 10px 32px;
-        border-width: 0px;
-        
+    border-radius: 4px;
+    padding: 10px 32px;
+    border-width: 0px;
 }
 
 .hero-btn:active{
@@ -256,12 +258,14 @@ header{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--brand-color);}
+    color: var(--brand-color);
+}
 
 
 /*-------Work team----------*/
 
-.work-team {background: #F5F4FA;
+.work-team {
+    background: #F5F4FA;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -270,7 +274,6 @@ header{
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    
 }
 
 .work-team-title {
@@ -377,7 +380,7 @@ header{
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    }
+}
 
 
 .clients-link:hover,
@@ -460,7 +463,7 @@ header{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    }
+}
 
 .mail-link{
     margin-bottom: 9px;
@@ -470,8 +473,7 @@ header{
     display: block;
     justify-content: baseline;
     align-items:flex-start;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 .social-title{
@@ -507,7 +509,6 @@ header{
     background: #FFFFFF;
     padding-top: 94px;
     padding-bottom: 94px;
-    
 }
 
 .buttom-list{
@@ -534,7 +535,9 @@ header{
     min-height: 38px;
 }
 
-.project-selection:hover{cursor: pointer;}
+.project-selection:hover{
+    cursor: pointer;
+}
 
 .project-selection:active{
     color: #FFFFFF;
@@ -551,7 +554,7 @@ header{
     margin-top: 0px;
     margin-bottom: 0px;
     
-    }
+}
 
 .portfolio-list-item{
     flex-basis: calc((100%-60px)/3);
