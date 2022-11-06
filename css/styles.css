@@ -182,7 +182,8 @@ header{
         
 }
 
-.hero-btn:active{background: #188CE8;
+.hero-btn:active{
+    background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -339,12 +340,14 @@ header{
     color: #FFFFFF;
 }
 
+
+
 /*-------Clients---------*/
 
 .clients-title{
     margin-bottom: 50px;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;    
     color: var(--brand-color);
@@ -374,20 +377,19 @@ header{
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-}
+    }
+
 
 .clients-link:hover,
 .clients-link:focus{
     border: 1px solid #2196F3;
     border-radius: 4px;
-}
-.clients-logo:hover,
-.clients-logo:focus{
     fill: var(--secondary-color);
 }
 
-
-
+.clients-link:hover .clients-logo{
+    fill: var(--secondary-color);
+}
 
 .clients-area{
     padding-top: 94px;
@@ -397,6 +399,7 @@ header{
 /*-------Footer----------*/
 
 .footer-box{
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
@@ -446,6 +449,19 @@ header{
 
 .mail-link{
     margin-bottom: 9px;
+}
+
+.fotter-socials{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social-title{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 /*---------Portfolio----------*/
